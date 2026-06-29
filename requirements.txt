@@ -1,0 +1,13 @@
+# Stock Inventory — offline desktop app
+# One-time install (needs internet ONCE):  pip install -r requirements.txt
+# After that the app runs fully offline.
+streamlit>=1.30
+pandas>=1.5
+plotly>=5.18
+reportlab>=4.0          # PDF inventory reports
+pillow>=9.0             # logo / window icon
+openpyxl>=3.1          # read .xlsx files for bulk import
+
+# Optional: opens the app in its own desktop window (looks like installed software).
+# If this isn't installed, the app simply opens in your web browser instead.
+pywebview>=4.4
